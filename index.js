@@ -1,2 +1,8 @@
 console.log('site-box')
-console.log(location.href)
+
+const currentTabURL = () => {
+  chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, tabs => {
+    const url = tabs[0].url
+    return url
+  })
+}

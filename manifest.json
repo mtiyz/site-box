@@ -5,8 +5,7 @@
   "permissions": [
     "tabs"
   ],
-  "content_scripts": [{
-    "matches": ["*://*/*"],
-    "js": ["index.js"]
-  }]
+  "background": {
+    "scripts": ["index.js"]
+  }
 }
