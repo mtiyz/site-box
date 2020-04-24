@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "lint": "eslint --fix"
   },
   "repository": "https://github.com/mtiyz/site-box.git",
   "author": "motiya",
   "license": "MIT",
   "devDependencies": {
+    "@arkweid/lefthook": "^0.7.1",
     "@rollup/plugin-typescript": "^4.1.1",
     "@types/chrome": "^0.0.104",
     "@typescript-eslint/eslint-plugin": "^2.29.0",

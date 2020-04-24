@@ -1,0 +1,10 @@
+pre-push:
+  commands:
+    packages-audit:
+      run: yarn audit
+
+pre-commit:
+  commands:
+    eslint:
+      glob: "*.{js,ts}"
+      run: yarn lint {staged_files}
