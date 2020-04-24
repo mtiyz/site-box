@@ -13,7 +13,7 @@ export default {
     terser(),
     copy({
       targets: [
-        { src: 'src/manifest.json', dest: 'dist/' },
+        { src: 'src/manifest.json', dest: 'dist/' }
       ]
     })
   ]
