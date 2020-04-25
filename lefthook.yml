@@ -6,13 +6,15 @@ pre-push:
 pre-commit:
   commands:
     eslint:
-      glob: "*.{js,ts}"
+      glob: '*.{js,ts}'
       run: yarn lint {staged_files}
 
     prettier-json:
-      glob: "*.json"
-      run: yarn prettier --parser "json" {staged_files}
+      glob: '*.json'
+      run: yarn prettier --parser 'json' {staged_files}
+      run: git add {staged_files}
 
     prettier-yaml:
-      glob: "*.{yaml,yml}"
-      run: yarn prettier --parser "yaml" {staged_files}
+      glob: '*.{yaml,yml}'
+      run: yarn prettier --parser 'yaml' {staged_files}
+      run: git add {staged_files}
