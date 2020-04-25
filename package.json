@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
-    "lint": "eslint --fix"
+    "lint": "eslint --fix",
+    "prettier": "prettier --write"
   },
   "repository": "https://github.com/mtiyz/site-box.git",
   "author": "motiya",
