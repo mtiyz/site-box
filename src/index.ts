@@ -1,6 +1,6 @@
 console.log('site-box')
 
-const currentTabURL = (): string | void => {
+const getCurrentTabURL = (): string | void => {
   // eslint-disable-next-line no-undef
   chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
     const url = tabs[0].url
@@ -8,4 +8,4 @@ const currentTabURL = (): string | void => {
   })
 }
 
-currentTabURL()
+getCurrentTabURL()
