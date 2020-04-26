@@ -8,6 +8,7 @@ pre-commit:
     eslint:
       glob: '*.{js,ts}'
       run: yarn lint {staged_files}
+      run: git add {staged_files}
 
     prettier-json:
       glob: '*.json'
