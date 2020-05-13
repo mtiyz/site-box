@@ -66,10 +66,10 @@
     estree-walker "^1.0.1"
     micromatch "^4.0.2"
 
-"@types/chrome@^0.0.106":
-  version "0.0.106"
-  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.106.tgz#bf1f75215ac06bae6f7c3a7c05d2826d67b85f3c"
-  integrity sha512-sCQa+QJL/Kl+6ngU4xD1VjTFIkQDizOHN94zbb7byK9D3U79x/KXjqXyS7lHoa2q9xw3bWePb+giLhBKOILRuA==
+"@types/chrome@^0.0.110":
+  version "0.0.110"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.110.tgz#e1179fc5e286615308b44ecfc806fe0b81c8708a"
+  integrity sha512-oUCGfina2v3eFgCA05vEL6ZlUZcoWaLQCmVRMYeqiDR4RcV9db8WrOQtSypwknathvcdmiatXGK9AiDO9lVDCg==
   dependencies:
     "@types/filesystem" "*"
     "@types/har-format" "*"
