@@ -13,7 +13,7 @@
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.2",
     "@rollup/plugin-typescript": "^5.0.0",
-    "@types/chrome": "^0.0.115",
+    "@types/chrome": "^0.0.116",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "eslint": "^6.8.0",
